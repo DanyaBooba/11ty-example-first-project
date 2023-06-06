@@ -4,8 +4,12 @@
   "description": "11ty first example project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "author": "Daniil Dybka",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
